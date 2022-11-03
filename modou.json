@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "userID": 1001,
+            "name": "alice",
+            "password": "alice000",
+            "levelID": 1
+        },
+        {
+            "userID": 1002,
+            "name": "bolin",
+            "password": "bolin000",
+            "levelID": 2
+        },
+        {
+            "userID": 1003,
+            "name": "eva",
+            "password": "eva000",
+            "levelID": 2
+        }
+    ],
+    "levels": [
+        {
+            "levelID": 1,
+            "level": "管理员"
+        },
+        {
+            "levelID": 1,
+            "level": "普通用户"
+        }
+    ]
+}

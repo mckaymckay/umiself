@@ -1,0 +1,12 @@
+"filename", "language", "TypeScript React", "Less", "JSON with Comments", "JSON", "CSS", "Ignore", "TypeScript", "Markdown", "comment", "blank", "total"
+"/Users/a58/Desktop/58相关/umi-self/.prettierignore", "Ignore", 0, 0, 0, 0, 0, 8, 0, 0, 0, 1, 9
+"/Users/a58/Desktop/58相关/umi-self/.prettierrc", "JSON", 0, 0, 0, 11, 0, 0, 0, 0, 0, 1, 12
+"/Users/a58/Desktop/58相关/umi-self/.umirc.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 11, 0, 0, 2, 13
+"/Users/a58/Desktop/58相关/umi-self/README.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 10, 0, 6, 16
+"/Users/a58/Desktop/58相关/umi-self/package.json", "JSON", 0, 0, 0, 7, 0, 0, 0, 0, 33, 0, 40
+"/Users/a58/Desktop/58相关/umi-self/src/global.css", "CSS", 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3
+"/Users/a58/Desktop/58相关/umi-self/src/pages/index.less", "Less", 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"/Users/a58/Desktop/58相关/umi-self/src/pages/index.tsx", "TypeScript React", 99, 0, 0, 0, 0, 0, 0, 0, 0, 6, 105
+"/Users/a58/Desktop/58相关/umi-self/tsconfig.json", "JSON with Comments", 0, 0, 32, 0, 0, 0, 0, 0, 5, 1, 38
+"/Users/a58/Desktop/58相关/umi-self/typings.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 10, 0, 0, 1, 11
+"Total", "-", 99, 3, 32, 18, 3, 8, 21, 10, 38, 19, 251
