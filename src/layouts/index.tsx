@@ -233,6 +233,7 @@ function IndexPage(props: IndexPageType) {
     const [user, setUser] = useState('陶家乐112')
     console.log('branch3')
     console.log('branch2')
+    console.log('branch44')
     return (
         <ConfigProvider>
             <div className={styles['fsbt-layout']}>
