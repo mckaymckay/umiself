@@ -231,6 +231,7 @@ function IndexPage(props: IndexPageType) {
     const location = useLocation()
     // useLocation()和props.location一样
     const [user, setUser] = useState('陶家乐112')
+    console.log('branch3')
     return (
         <ConfigProvider>
             <div className={styles['fsbt-layout']}>
