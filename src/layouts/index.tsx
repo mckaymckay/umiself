@@ -234,6 +234,7 @@ function IndexPage(props: IndexPageType) {
     console.log('branch3')
     console.log('branch2')
     console.log('branch44')
+    console.log('main')
     return (
         <ConfigProvider>
             <div className={styles['fsbt-layout']}>
