@@ -211,9 +211,9 @@ const layout1 = [
     }
 ]
 
-const formatMenu = () => {
-    function generatorMenu(layout1: any) {
-        return layout1.filter((route: any) => {
+const formatMenu = (layout: any) => {
+    function generatorMenu(layout: any) {
+        return layout.filter((route: any) => {
             if (route.routes?.length) {
                 route.routes = generatorMenu(route.routes);
             }
@@ -225,15 +225,14 @@ const formatMenu = () => {
 
 
 function IndexPage(props: IndexPageType) {
-    const res = formatMenu()
+    const res = formatMenu(layout)
+    const res1 = formatMenu(layout1)
     const location = useLocation()
     // useLocation()和props.location一样
     const [user, setUser] = useState('陶家乐112')
-    console.log('main')
-    console.log('master')
     return (
         <ConfigProvider>
-            <div className={styles['fsbt-layout']}>
+            {/* <div className={styles['fsbt-layout']}>
                 <div className={styles['fsbt-header']}>
                     <div className={styles['fsbt-logo']}>58商办通</div>
                     <div className={styles['fsbt-user']}> 欢迎{user}</div>
@@ -244,8 +243,8 @@ function IndexPage(props: IndexPageType) {
                     </div>
                     <div className={styles['content-right']}>{props.children}</div>
                 </div>
-            </div>
-
+            </div> */}
+            <div className={styles['content-right']}>{props.children}</div>
         </ConfigProvider>
 
     );

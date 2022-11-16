@@ -52,7 +52,6 @@ const handleClickItem = (e: any) => {
 function FSBTMenu() {
     const [openKeys, setOpenKeys] = useState(['sub1']);
     const location = useLocation()
-    console.log(55, location)
     useEffect(() => {
         const menuData = formatRoute()
     }, [])

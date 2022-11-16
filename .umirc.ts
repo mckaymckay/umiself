@@ -10,4 +10,7 @@ export default defineConfig({
   mock: false,
   routes: routers,
   fastRefresh: {},
+  antd: {
+    mobile: false
+  }
 });

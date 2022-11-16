@@ -4,53 +4,30 @@ const routers = [
         component: '@/layouts/index',
         routes: [
             {
-                path: 'house',
+                path: 'components',
                 routes: [
                     {
-                        path: 'rent',
-                        routes: [
-                            {
-                                path: 'list',
-                                component: '@/pages/rent',
-                                mate: {
-                                    title: '出租列表',
-                                },
-                            }
-                        ],
+                        path: 'list',
+                        component: '@/pages/rent',
                         mate: {
-                            title: '房源出租',
-                            isMenu: true,
+                            title: '列表',
                         },
                     },
                     {
-                        path: 'sell',
-                        routes: [
-                            {
-                                path: 'list',
-                                component: '@/pages/sell',
-                                mate: {
-                                    title: '出售列表',
-                                },
-                            }
-                        ],
+                        path: 'table',
+                        component: '@/pages/table',
                         mate: {
-                            title: '房源出售',
-                            isMenu: true,
+                            title: '表格',
+                        },
+                    },
+                    {
+                        path: 'vinput',
+                        component: '@/pages/vinput',
+                        mate: {
+                            title: '虚拟输入框',
                         },
                     }
-                ],
-                mate: {
-                    title: '房源管理',
-                    isMenu: true,
-                },
-            },
-            {
-                path: 'log',
-                component: '@/pages/logmenu',
-                mate: {
-                    title: '操作日志',
-                    isMenu: true,
-                },
+                ]
             },
             {
                 path: '/',
